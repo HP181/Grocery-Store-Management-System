@@ -1,0 +1,22 @@
+{
+    "679c9580b1caa": {
+        "orderId": "679c9580b1caa",
+        "customerName": "Hitkumar Patel",
+        "products": {
+            "3": {
+                "quantity": 2,
+                "price": 6
+            },
+            "4": {
+                "quantity": 1,
+                "price": 3
+            },
+            "5": {
+                "quantity": 2,
+                "price": 50
+            }
+        },
+        "totalPrice": 115,
+        "orderDate": "2025-01-31 10:18:56"
+    }
+}

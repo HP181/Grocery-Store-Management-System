@@ -1,0 +1,37 @@
+.navbar {
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-item .nav-link {
+  position: relative;
+  padding: 8px 15px;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #f8d210;
+}
+
+.navbar-nav .nav-item .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #f8d210;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-item .nav-link:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+/* Mobile Navbar Animation */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    transition: max-height 0.4s ease-in-out;
+  }
+}

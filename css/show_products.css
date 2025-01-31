@@ -1,0 +1,55 @@
+body {
+  background: #f8f9fa;
+}
+.product-card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  background: white;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.card-header {
+  background: #007bff;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.product-details p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+.status-badge {
+  display: inline-block;
+  background: green;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+.status-badge.in-stock {
+  background: green;
+}
+.status-badge.out-of-stock {
+  background: #dc3545;
+}
+.remove-btn {
+  background: #dc3545;
+  border: none;
+  padding: 8px;
+  color: white;
+  width: 100%;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+.remove-btn:hover {
+  background: #a71d2a;
+}
