@@ -22,7 +22,7 @@ OOP in PHP helps developers write clean, modular, and reusable code, making it e
 
 ## OOP Concepts Used
 - **Classes**: Each class is responsible for managing the grocery store.
-- - **Objects**: Each class is instantiated to create an object that manages the entire grocery store.
+- **Objects**: Each class is instantiated to create an object that manages the entire grocery store.
 - **Encapsulation**: Each class has private properties with public methods to access them, ensuring data integrity.
 - **Abstraction**: The `DataStorage` class abstracts the JSON file operations, making the storage logic reusable.
 
