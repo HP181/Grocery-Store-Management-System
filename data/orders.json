@@ -18,5 +18,25 @@
         },
         "totalPrice": 115,
         "orderDate": "2025-01-31 10:18:56"
+    },
+    "679ca5f525558": {
+        "orderId": "679ca5f525558",
+        "customerName": "Hitkumar Patel",
+        "products": {
+            "1": {
+                "quantity": 2,
+                "price": 5
+            },
+            "3": {
+                "quantity": 3,
+                "price": 6
+            },
+            "5": {
+                "quantity": 21,
+                "price": 50
+            }
+        },
+        "totalPrice": 1078,
+        "orderDate": "2025-01-31 11:29:09"
     }
 }

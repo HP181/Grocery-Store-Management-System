@@ -2,17 +2,17 @@
     "1": {
         "name": "Apple",
         "price": 5,
-        "quantity": 5
+        "quantity": 3
     },
     "2": {
         "name": "Milk",
         "price": 3.5,
-        "quantity": 33
+        "quantity": 30
     },
     "3": {
         "name": "mango",
         "price": 6,
-        "quantity": 17
+        "quantity": 14
     },
     "4": {
         "name": "Sugar",
@@ -22,6 +22,6 @@
     "5": {
         "name": "Chocolates ",
         "price": 50,
-        "quantity": 147
+        "quantity": 126
     }
 }
